@@ -1,0 +1,14 @@
+.faq__question {
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: $hue-text-color;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.faq__text {
+  color: $hue-text-color;
+}

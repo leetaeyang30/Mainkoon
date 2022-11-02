@@ -1,9 +1,13 @@
 $main-text-color: #ffffff;
-$accent-text-color: #A07B50;
-$hue-text-color: #DDD0C3;
-$footer-text-color: #D6CCC2;
-$background-color: #1F1C1D;
+$main-text-color-72: rgba(255, 255, 255, 0.72);
+$accent-text-color: #a07b50;
+$hue-text-color: #ddd0c3;
+$address-text-color: #d6ccc2;
+$phone-text-color: #fdf2e6;
+$background-color: #1f1c1d;
+$footer-background-color: #151313;
 $accent-background-color: #181617;
+$main-background-color: #1f1c1d;
 $card-background-color: rgba(0, 0, 0, 0.3);
 $inactive-element-color: rgba(255, 255, 255, 0.2);
 
@@ -12,3 +16,4 @@ $tablet-width: 768px;
 $desktop-width: 1366px;
 
 $main-font: "Roboto", "Arial", sans-serif;
+$accent-font: "Yeseva One", "Palatino Linotype", serif;

@@ -4,15 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style/normalize.css">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/icons/favicons/favicon.ico" sizes="16x16 32x32">
+  <link rel="icon" href="img/icons/favicons/favicon.svg" sizes="any" type="image/svg+html">
+  <link rel="apple-touch-icon" href="img/icons/favicons/180.png">
+  <link rel="webmanifest" href="manifest.webmanifest">
   <title>Питомник Мейн-кунов</title>
 </head>
 
 <body class="page__body">
   <header class="header">
     <a class="header__logo logo" href="!#">
-      <img class="logo__image" src="" width="52" height="22" alt="Логотип питомника в виде короны.">
+      <img class="logo__image" src="img/icons/logo.svg" width="52" height="22" alt="Логотип питомника в виде короны.">
     </a>
     <ul class="header__socials socials">
       <li class="socials__item">
@@ -30,7 +34,7 @@
       <p class="header__text">Новосибирск</p>
       <p class="header__text">Первый питомник с расширенным спектром услуг</p>
       <a class="button button--primary" href="!#">Смотреть котиков</a>
-      <img class="header__image" src="" width="" height="" alt="Морда рыжего мейн-куна.">
+      <img class="header__image" src="img/header-cat.png" srcset="img/header-cat@2x.png 2x" width="275" height="256" alt="Морда рыжего мейн-куна.">
     </div>
   </header>
 
@@ -45,7 +49,7 @@
         <div class="pets__slider slider">
           <ul class="slider__buttons">
             <li class="slider__item">
-              <a href="!#" class="slider__button">Коты</a>
+              <a href="!#" class="slider__button slider__button--active">Коты</a>
             </li>
             <li class="slider__item">
               <a href="!#" class="slider__button">Кошки</a>
@@ -56,13 +60,13 @@
           </ul>
           <ul class="slides">
             <li class="slides__item slides__item--active">
-              <img src="" width="" height="" alt="">
+              <img src="img/slider-cat-mob.png" srcset="img/slider-cat-mob@2px.png 2x" width="234" height="248" alt="Черный кот мейнкун.">
             </li>
             <li class="slides__item">
-              <img src="" width="" height="" alt="">
+              <img src="img/slider-cat-mob.png" srcset="img/slider-cat-mob@2px.png 2x" width="" height="" alt="1">
             </li>
             <li class="slides__item">
-              <img src="" width="" height="" alt="">
+              <img src="img/slider-cat-mob.png" srcset="img/slider-cat-mob@2px.png 2x" width="" height="" alt="1">
             </li>
           </ul>
           <button class="slider__arrow slider__arrow--back" type="button" aria-label="Назад"></button>
@@ -79,7 +83,7 @@
           Мейн-Кун - это порода, которая вызывает к себе уважение.
           Приобретая в свой дом этого питомца, вы получите умное животное, которому нет равных.
         </p>
-        <img class="features__image" src="" width="" height="" alt="Пушистый рыжий мейн-кун.">
+        <img class="features__image" src="img/features-image-mob.png" srcset="img/features-image-mob@2x.png 2x" width="" height="" alt="Пушистый рыжий мейн-кун во весь рост.">
         <ul class="features__list">
           <li class="features__item features__item--contact">
             Легко уживается в семьях с детьми или другими животными
@@ -176,8 +180,8 @@
         </p>
         <ul class="team__list">
           <li class="team__item team-card">
-            <img src="" alt="" class="team-card__avatar">
-            <h3 class="team-card-name">Серёжа Попов </h3>
+            <img class="team-card__avatar" src="img/avatar-serg-mob.jpg" srcset="img/avatar-serg-mob@2x.jpg 2x" alt="Брюнет средних лет.">
+            <h3 class="team-card__name">Серёжа Попов </h3>
             <p class="team-card__position">Основатель питомника</p>
             <blockquote class="team-card__quote">
               Наш питомник занимается разведением Мейн-Кунов на протяжении 15 лет.
@@ -196,14 +200,14 @@
             </ul>
           </li>
           <li class="team__item team-card">
-            <img src="" alt="" class="team-card__avatar">
-            <h3 class="team-card-name"></h3>
+            <img class="team-card__avatar" src="img/avatar-serg-mob.jpg" srcset="img/avatar-serg-mob@2x.jpg 2x" alt="">
+            <h3 class="team-card__name"></h3>
             <p class="team-card__position"></p>
             <blockquote class="team-card__quote"></blockquote>
           </li>
           <li class="team__item team-card">
-            <img src="" alt="" class="team-card__avatar">
-            <h3 class="team-card-name"></h3>
+            <img class="team-card__avatar" src="img/avatar-serg-mob.jpg" srcset="img/avatar-serg-mob@2x.jpg 2x" alt="">
+            <h3 class="team-card__name"></h3>
             <p class="team-card__position"></p>
             <blockquote class="team-card__quote"></blockquote>
           </li>
@@ -233,19 +237,19 @@
             </div>
           </li>
           <li class="faq__item">
-            <button type="button">Как зарезервировать котенка?</button>
+            <button class="faq__question" type="button">Как зарезервировать котенка?</button>
             <div class="faq__answer">
               <p class="faq__text"></p>
             </div>
           </li>
           <li class="faq__item">
-            <button type="button">Можно ли купить кота, если я живу в другом городе?</button>
+            <button class="faq__question" type="button">Можно ли купить кота, если я живу в другом городе?</button>
             <div class="faq__answer">
               <p class="faq__text"></p>
             </div>
           </li>
           <li>
-            <button type="button">Как подготовить дом к приему нового питомца?</button>
+            <button class="faq__question" type="button">Как подготовить дом к приему нового питомца?</button>
             <div class="faq__answer">
               <p class="faq__text"></p>
             </div>
@@ -259,14 +263,14 @@
         <h2 class="reviews__title section__title">Отзывы</h2>
         <ul class="reviews__list">
           <li class="reviews__item review">
-            <img class="review__avatar" src="" alt="">
+            <img class="review__avatar" src="img/avatar-serg-mob.jpg" alt="">
             <blockquote class="review__description">
               <cite class="review__author">Серёжа Попов</cite>
               <p class="review__text">
                 Я выражаю огромную благодарность вашему питомнику. Мой Феликс невероятно умен
                 и воспитан. Огромным плюсом питомника является возможность консультироваться в любое время
               </p>
-              <time datetime="2018-05-24">24 мая 2018</time>
+              <time class="review__date" datetime="2018-05-24">24 мая 2018</time>
               <ul class="review__socials socials">
                 <li class="socials__item">
                   <a class="socials__link socials__link--secondary" href="!#" aria-label="Вконтакте"></a>
@@ -286,7 +290,7 @@
 
   <footer class="footer">
     <div class="container">
-      <a class="footer__adress" href="!#">Новосибирск, Пушкинский проспект, 19</a>
+      <a class="footer__address" href="!#">Новосибирск, Пушкинский проспект, 19</a>
       <a class="footer__phone" href="tel:+73839006465">+7 (383) 900-64-65</a>
       <ul class="footer__socials socials">
         <li class="socials__item">
@@ -300,7 +304,7 @@
         </li>
       </ul>
       <a class="footer__logo logo" href="!#">
-        <img class="logo__image" src="" width="52" height="22" alt="Логотип питомника в виде короны.">
+        <img class="logo__image" src="img/icons/logo.svg" width="56" height="25" alt="Логотип питомника в виде короны.">
       </a>
     </div>
   </footer>
